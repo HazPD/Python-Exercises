@@ -1,7 +1,13 @@
 {
 	"folders": [
 		{
+			"path": "../Puzzles"
+		},
+		{
 			"path": "."
+		},
+		{
+			"path": "../Data Structures"
 		}
 	],
 	"settings": {}
