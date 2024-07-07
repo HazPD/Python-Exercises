@@ -3,9 +3,9 @@
 def Check_unique(strings):
     max_unique_string = ""
     max_unique_count = 0
-    set(strings)
+    set(strings) #removes duplicate from list
     for i in strings:
-        if len(set(i)) > max_unique_count:
+        if len(set(i)) > max_unique_count: #length of distinct elements
             max_unique_count = len(set(i))
             max_unique_string = i
     return max_unique_string

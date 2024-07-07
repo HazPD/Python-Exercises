@@ -3,9 +3,9 @@ def mean(int_list):
     Total_Sum = 0 
     
     for i in range(len(int_list)):
-        Length = len(int_list)
-        Total_Sum += int_list[i]
-        mean = Total_Sum / Length
+        Length = len(int_list) #declaration of length of list
+        Total_Sum += int_list[i] #addition of all elements
+        mean = Total_Sum / Length #Divides the sum by # of elements in list
     return mean
 
 int_list = [4, -5, 17, -9, 14, 108, -9]

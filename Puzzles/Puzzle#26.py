@@ -1,7 +1,7 @@
 #Write a Python program to find the largest number where commas or periods are decimal points.
 def find(int_list):
     Highest = []
-    temp = [i.replace(',','.') for i in int_list]
+    temp = [i.replace(',','.') for i in int_list] #checks all elements for "," and changes it with "."
     Highest = max(temp)
     return Highest
 
