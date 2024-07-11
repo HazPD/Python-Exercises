@@ -11,19 +11,6 @@ def mean(int_list):
 int_list = [4, -5, 17, -9, 14, 108, -9]
 print(mean(int_list))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 #Input:
 #[4, -5, 17, -9, 14, 108, -9]
 #Output:
